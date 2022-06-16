@@ -1,11 +1,12 @@
-import Utilities from "./Utilities.js";
-import utilities from "./Utilities.js";
+import Cards from "./Cards.js";
+import Container from "./Container.js";
+import Result from "./Result.js";
 
 
-Utilities.applyStyleSpanTag();
-Utilities.applyStyleArticleTag();
-Utilities.applyStyleInputTag();
-Utilities.applyStyleImgTag();
-Utilities.applyStyleh2Tag();
-utilities.applyStyleButtonTag();
+Cards.applyStyleSpanTag();
+Cards.applyStyleArticleTag();
+Cards.applyStyleInputTag();
+Cards.applyStyleImgTag();
+Cards.applyStyleh2Tag();
+Cards.applyStyleButtonTag();
 
