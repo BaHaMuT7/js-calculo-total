@@ -5,66 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calcula total notebooks</title>
-
-    <style>
-        article {
-            height: 971px;
-            width: 684px;
-            background-color: #7BA238;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            border: 3px solid #7A7A7A;
-            border-radius: 10px;
-        }
-
-        img {
-            height: 305px ;
-            width: 525px;
-        }
-
-        input {
-            height: 85px;
-            width: 534px;
-            border-radius: 20px;
-            font-size: 40px;
-        }
-
-        input::placeholder {
-            font-size: 40px;
-            padding-left: 30px;
-        }
-
-        h2 {
-            color: #FFF;
-            font-size: 50px;
-        }
-
-        span {
-            color: #FFF;
-            font-size: 65px;
-        }
-
-        button {
-            background-color: #E2A30C;
-            color: #FFF;
-            height: 90px;
-            width: 315px;
-            border-radius: 20px;
-            border-bottom: 5px solid #000;
-            border-right:  5px solid #000;
-            border-top:  5px solid #7A7A7A;
-            border-left:  5px solid #7A7A7A;
-            font-size: 45px;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
         <article class="tarjeta">
             <img src="assets/img/notebook.png" alt="Notebook" />
-            <h2>Laptop Gamer AMD</h2>
+            <h2 id="titulo">Laptop Gamer AMD</h2>
             <input type="number" id="cantidad" name="cantidad" placeholder="Cantidad" min="0"/>
             <input type="text" name="color" id="color" placeholder="Color" />
             <span>Precio: $400.000</span>
@@ -74,6 +20,6 @@
 
 
 
-    <script src="assets/js/index.js"></script>
+    <script src="assets/js/index.js" type="module"></script>
 </body>
 </html>
