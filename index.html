@@ -5,6 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calcula total notebooks</title>
+    <style>
+
+
+        .resultados {
+            margin-left: 50px;
+        }
+
+        .resultados span {
+            margin-top: 50px;
+            margin-left: 10px;
+            font-size: 50px;
+        }
+        .resultados h3 {
+            font-size: 50px;
+        }
+
+        .total {
+            display: flex;
+        }
+
+        .cantidad {
+            display: flex;
+        }
+
+        .color {
+            display: flex;
+        }
+
+        .circulo {
+            margin-left: 10px;
+            margin-top: 50px;
+            height:50px;
+            width:50px;
+            background: salmon;
+            border-radius:50px;
+        }
+
+
+    </style>
 </head>
 <body>
     <div class="container">
@@ -16,6 +55,17 @@
             <span>Precio: $400.000</span>
             <button>Calcular Total</button>
         </article>
+        <section class="resultados">
+            <div class="total">
+                <h3>Total:</h3> <span>0</span>
+            </div>
+            <div class="cantidad">
+                <h3>Cantidad:</h3> <span>0</span>
+            </div>
+            <div class="color">
+                <h3>Color:</h3> <div class="circulo"></div>
+            </div>
+        </section>
     </div>
 
 
