@@ -13,18 +13,18 @@
             <h2 id="title">Laptop Gamer AMD</h2>
             <input type="number" id="quantity" name="cantidad" placeholder="Cantidad" min="0"/>
             <input type="text" name="color" id="color" placeholder="Color" />
-            <span>Precio: $400.000</span>
-            <button>Calcular Total</button>
+            <span>Precio: 400000</span>
+            <button id="summarize">Calcular Total</button>
         </article>
         <section class="resultados">
             <div class="total">
-                <h3>Total:</h3> <span>0</span>
+                <h3>Total:</h3> <span id="rTotal">0</span>
             </div>
             <div class="cantidad">
-                <h3>Cantidad:</h3> <span>0</span>
+                <h3>Cantidad:</h3> <span id="rQuantity">0</span>
             </div>
             <div class="color">
-                <h3>Color:</h3> <div class="circulo"></div>
+                <h3>Color:</h3> <div class="circulo" id="cCircle"></div>
             </div>
         </section>
     </div>

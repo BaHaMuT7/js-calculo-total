@@ -1,6 +1,7 @@
 import Cards from "./Cards.js";
 import Container from "./Container.js";
 import Result from "./Result.js";
+import handleSummaryBlock from "./CustomEventsHandler.js";
 
 //Main container styles are applied
 Container.applyStyleContainerBlock();
@@ -19,4 +20,7 @@ Cards.applyStyleInputTag();
 Cards.applyStyleImgTag();
 Cards.applyStyleh2Tag();
 Cards.applyStyleButtonTag();
+
+//Trigger onclick event in Calcular Total button
+handleSummaryBlock();
 

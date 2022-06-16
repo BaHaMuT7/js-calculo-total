@@ -47,6 +47,7 @@ export class Cards {
     static button_borderTop = "5px solid #7A7A7A";
     static button_borderLeft = "5px solid #7A7A7A";
     static button_fontSize = "45px";
+    static button_cursor = "pointer";
 
 
     //Métodos
@@ -128,6 +129,7 @@ export class Cards {
                 tag.style.borderRight = Cards.button_borderRight;
                 tag.style.borderTop = Cards.button_borderTop;
                 tag.style.fontSize = Cards.button_fontSize;
+                tag.style.cursor = Cards.button_cursor;
 
             }
 
